@@ -20,3 +20,4 @@ Making it a modern, minimalistic and fully capable speaker.
    guides/index
    cabinet/index
    software/index
+   speaker/index

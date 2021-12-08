@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Strøm'
-copyright = '2021, Lyd by Dissing ApS'
+copyright = '2022, Lyd by Dissing ApS'
 author = 'Tue S. Dissing'
 
 
@@ -28,7 +28,7 @@ author = 'Tue S. Dissing'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    
+
 ]
 
 # Add any paths that contain templates here, relative to this directory.
