@@ -11,13 +11,3 @@ Cabinet construction
 
 To ensure an easy assembly of the speaker cabinet, a sandwish construction is used. This makes it easy to construct the different layers and at the same time, simplyfing the construction of this semi complex cabinet. This also makes it possible to machine all the individual layers on a CNC.
 This comes in handy when utilizing `decentrilized manufactoring <https://en.wikipedia.org/wiki/Distributed_manufacturing>`_.
-
-
-Cabinet Parts
-=============
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   parts/*

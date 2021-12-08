@@ -1,5 +1,0 @@
-================
-The Bottom Layer
-================
-
-:fieldname: Bottom layer*, Part ID: 1234
