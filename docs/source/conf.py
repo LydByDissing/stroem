@@ -28,8 +28,12 @@ author = 'Tue S. Dissing'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-
+    'rst2pdf.pdfbuilder'
 ]
+
+# Adding support for generating PDF documents
+pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Lyd by Dissing'),]
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

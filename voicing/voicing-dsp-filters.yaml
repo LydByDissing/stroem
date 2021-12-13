@@ -1,0 +1,33 @@
+---
+devices:
+  samplerate: 44100
+  chunksize: 1024
+  capture:
+    type: CoreAudio
+    channels: 2
+    device: "Soundflower (2ch)"
+    format: FLOAT32LE
+  playback:
+    type: CoreAudio
+    channels: 2
+    device: "Built-in Output"
+    format: FLOAT32LE
+
+filters:
+  lowshelf:
+    type: Biquad
+    parameters:
+      type: Lowshelf
+      freq: 8000
+      gain: -12
+      slope: 6
+
+pipeline:
+  - type: Filter
+    channel: 0
+    names:
+      - lowshelf
+  - type: Filter
+    channel: 1
+    names:
+      - lowshelf
