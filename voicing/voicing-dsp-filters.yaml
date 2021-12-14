@@ -14,20 +14,94 @@ devices:
     format: FLOAT32LE
 
 filters:
-  lowshelf:
+  LR_highpass:
+    type: BiquadCombo
+    parameters:
+      type: LinkwitzRileyHighpass
+      freq: 75
+      order: 8
+  lowshelf_100:
     type: Biquad
     parameters:
       type: Lowshelf
-      freq: 8000
-      gain: -12
-      slope: 6
+      freq: 100
+      gain: 6
+      slope: 12
+  lowshelf_180:
+    type: Biquad
+    parameters:
+      type: Lowshelf
+      freq: 180
+      gain: 6
+      slope: 12
+  peak_311:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 311
+      q: 1
+      gain: -7.1
+  peak_3860:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 3860
+      q: 1
+      gain: -4.5
+  peak_11667:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 11667
+      q: 1.718
+      gain: -5.8
 
 pipeline:
   - type: Filter
     channel: 0
     names:
-      - lowshelf
+      - LR_highpass
   - type: Filter
     channel: 1
     names:
-      - lowshelf
+      - LR_highpass
+  - type: Filter
+    channel: 0
+    names:
+      - lowshelf_180
+  - type: Filter
+    channel: 1
+    names:
+      - lowshelf_180
+  - type: Filter
+    channel: 0
+    names:
+      - lowshelf_100
+  - type: Filter
+    channel: 1
+    names:
+      - lowshelf_100
+  - type: Filter
+    channel: 0
+    names:
+      - peak_311
+  - type: Filter
+    channel: 1
+    names:
+      - peak_311
+  - type: Filter
+    channel: 0
+    names:
+      - peak_3860
+  - type: Filter
+    channel: 1
+    names:
+      - peak_3860
+  - type: Filter
+    channel: 0
+    names:
+      - peak_11667
+  - type: Filter
+    channel: 1
+    names:
+      - peak_11667
