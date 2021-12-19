@@ -42,7 +42,7 @@ filters:
     type: BiquadCombo
     parameters:
       type: LinkwitzRileyHighpass
-      freq: 65
+      freq: 60
       order: 8
   highshelf_123:
     type: Biquad
@@ -55,7 +55,7 @@ filters:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 6000
+      freq: 5000
       gain: 9
       slope: 6
   highshelf_12k:
@@ -64,20 +64,6 @@ filters:
       type: Lowpass
       freq: 14300
       q: 0.707
-  peak_182:
-    type: Biquad
-    parameters:
-      type: Peaking
-      freq: 182
-      q: 10
-      gain: -9.0
-  peak_316:
-    type: Biquad
-    parameters:
-      type: Peaking
-      freq: 316
-      q: 5
-      gain: -12.3
 
 pipeline:
   - type: Mixer
@@ -114,19 +100,3 @@ pipeline:
     channel: 1
     names:
       - highshelf_12k
-  - type: Filter
-    channel: 0
-    names:
-      - peak_316
-  - type: Filter
-    channel: 1
-    names:
-      - peak_316
-  - type: Filter
-    channel: 0
-    names:
-      - peak_316
-  - type: Filter
-    channel: 1
-    names:
-      - peak_316

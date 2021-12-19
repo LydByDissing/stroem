@@ -28,7 +28,8 @@ author = 'Tue S. Dissing'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'rst2pdf.pdfbuilder'
+    'rst2pdf.pdfbuilder',
+    'sphinx_charts.charts'
 ]
 
 # Adding support for generating PDF documents
