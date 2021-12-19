@@ -24,9 +24,6 @@ def main(argv):
             outputfile = arg
         elif opt in ("-c", "--header"):
             headerStr = arg
-    #    print ('Input file is "', inputfile)
-    #    print ('Output file is "', outputfile)
-    #    print ('header is  "', headerStr)
 
     inputWithComments = open(inputfile, "r")
     # strip out comments
@@ -37,13 +34,10 @@ def main(argv):
     no_comments.write(headerStr + '\n')
     for i, line in enumerate(inputWithComments):
         if line.startswith('*'):
-            #print('line:' + line)
             comment_from_measurement = comment_from_measurement + line
         else:
-            #print('line:' + line)
             # Remove space
             no_comments.write(line.replace(" ", ""))
-    #print("comment: ", comment_from_measurement)
     no_comments.close()
 
 
@@ -54,13 +48,11 @@ def main(argv):
     fig.add_trace(go.Scatter(x = df[header[0]], y = df[header[1]], name='Frequency Reponse', mode='lines'))
     fig.add_trace(go.Scatter(x = df[header[0]], y = df[header[2]], name='Phase', mode='lines', yaxis='y2'))
 
-#    fig = go.Figure(go.Scatter(x = df[header[0]], y = df[header[1]], name='Frequency Reponse'))
-
     # Setting x-axis as log
     fig.update_xaxes(type="log")
 
    # Adding a title etc.
-    fig.update_layout(title='Measurement data measured by REW V5.20.4',
+    fig.update_layout(title='Measure frequency reposnse; performed using REW',
                       plot_bgcolor='rgb(230, 230,230)',
                       showlegend=True,
                       xaxis=dict(
@@ -100,7 +92,7 @@ def main(argv):
     json_graph.close()
 
     # generate image
-    fig.write_image("graph.png")
+#    fig.write_image("graph.png")
 
 if __name__ == "__main__":
     main(sys.argv[1:])
