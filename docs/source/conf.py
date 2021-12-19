@@ -29,8 +29,16 @@ author = 'Tue S. Dissing'
 # ones.
 extensions = [
     'rst2pdf.pdfbuilder',
-    'sphinx_charts.charts'
+    'sphinx_charts.charts',
+    'sphinx.ext.todo',
+    'sphinx.ext.autosectionlabel'
 ]
+
+# Display todos by setting to True
+todo_include_todos = True
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
 
 # Adding support for generating PDF documents
 pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Lyd by Dissing'),]

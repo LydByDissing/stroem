@@ -1,3 +1,5 @@
+.. _full-range-driver:
+
 Full Range Driver
 *****************
 

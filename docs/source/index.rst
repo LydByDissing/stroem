@@ -21,3 +21,5 @@ Making it a modern, minimalistic and fully capable speaker.
    cabinet/index
    software/index
    speaker/index
+   requirements
+   todo
