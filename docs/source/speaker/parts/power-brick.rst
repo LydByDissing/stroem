@@ -2,7 +2,7 @@ Power Brick
 ***********
 
 .. sidebar:: Parts information
-  :subtitle: See the below table for a short naming and ID information of this part.
+  :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Power brick; GST60A18-P1J*
   | **Parts ID**: WVOAE2

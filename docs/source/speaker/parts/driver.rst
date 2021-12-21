@@ -4,7 +4,7 @@ Full Range Driver
 *****************
 
 .. sidebar:: Parts information
-  :subtitle: See the below table for a short naming and ID information of this part.
+  :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Driver; SB65WBAC25-4*
   | **Parts ID**: 7SQ7QH
