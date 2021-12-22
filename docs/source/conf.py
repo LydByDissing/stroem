@@ -31,7 +31,8 @@ extensions = [
     'rst2pdf.pdfbuilder',
     'sphinx_charts.charts',
     'sphinx.ext.todo',
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    "sphinx-favicon"
 ]
 
 # Display todos by setting to True
@@ -64,3 +65,48 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Adding logo
+html_logo = "_static/logo.svg"
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+}
+
+favicons = [
+    {
+        "rel": "icon",
+        "static-file": "favicon.ico",  # => use `_static/icon.svg`
+        "type": "image/x-icon",
+    },
+    {
+        "rel": "icon",
+        "sizes": "16x16",
+        "href": "/_static/favicon-16x16.png",
+        "type": "image/png",
+    },
+    {
+        "rel": "icon",
+        "sizes": "32x32",
+        "href": "/_static/favicon-32x32.png",
+        "type": "image/png",
+    },
+    {
+        "rel": "apple-touch-icon",
+        "sizes": "180x180",
+        "href": "/_static/apple-touch-icon.png",
+        "type": "image/png",
+    },
+    {
+        "rel": "android-chrome-192x192",
+        "sizes": "180x180",
+        "href": "/_static/android-chrome-192x192.png",
+        "type": "image/png",
+    },
+    {
+        "rel": "android-chrome-512x512",
+        "sizes": "180x180",
+        "href": "/_static/android-chrome-512x512.png",
+        "type": "image/png",
+    }
+]

@@ -1,17 +1,15 @@
-*************
-Speaker Parts
-*************
+***************
+Speaker Cabinet
+***************
 
 Each speaker part have its own unique ID to make it easier to identify the correct part. Externally sourced parts will likely also have a SKU or similar.
-
-Parts
-=====
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   parts/*
+   parts/index
+   assembly
 
 Generate a parts ID
 ===================
