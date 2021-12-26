@@ -1,3 +1,4 @@
+.. _Power connector:
 DC Power Connector
 ******************
 
