@@ -23,7 +23,6 @@ Making it a modern, minimalistic and fully capable speaker.
    :maxdepth: 2
 
    guides/index
-   cabinet/index
    software/index
    speaker/index
    requirements
