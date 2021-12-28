@@ -1,3 +1,5 @@
+.. _cabinet layer 3:
+
 Cabinet Layer 3
 ***************
 
