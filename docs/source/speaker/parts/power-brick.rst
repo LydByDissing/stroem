@@ -26,7 +26,7 @@ Please see the tables below for further details.
   +--------------+-----------------+----------------+
   | Plug type    | Plug dimensions | Cable length   |
   +==============+=================+================+
-  | Barrel, male | 5,5mm x 2,1mm   | 1,5m           |
+  | Barrel, male | 5,5mm x 2,1mm   | >=1,5m           |
   +--------------+-----------------+----------------+
 
 Sourcing requirements
