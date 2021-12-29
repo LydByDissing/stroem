@@ -20,7 +20,7 @@ Three assembly-guiding holes are also cut in to the baffle. This helps aligning 
 
 .. image:: baffle/baffle-drawing.png
   :width: 500
-  :alt: Drawing with measurements of the back panel
+  :alt: Drawing with measurements of the baffle
 
 .. todo:: Add feature to ensure proper mounting of the :ref:`soft top frame <Soft Top Frame>` to the baffle.
 

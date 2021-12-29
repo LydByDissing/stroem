@@ -1,3 +1,5 @@
+.. _`dowels`:
+
 Dowels
 ******
 
@@ -5,7 +7,7 @@ Dowels
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Dowels*
-  | **Parts ID**: ??
+  | **Parts ID**: OOWEOE
   | **Material**: *6mm, wood*
 
 When assembling the cabinet dowels are needed for easy alignment of the different layers.

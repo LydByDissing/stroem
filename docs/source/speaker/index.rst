@@ -13,7 +13,7 @@ Each speaker part have its own unique ID to make it easier to identify the corre
    :glob:
 
    parts/index
-   assembly
+   assembly/index
 
 Cabinet construction
 ====================

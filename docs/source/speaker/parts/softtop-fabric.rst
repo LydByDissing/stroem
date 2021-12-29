@@ -1,7 +1,7 @@
 .. _Soft Top Fabric:
 
 Soft Top Fabric
-**************
+***************
 
 .. sidebar:: Parts information
   :subtitle: See the below for a quick overview of the naming and ID information of this part.

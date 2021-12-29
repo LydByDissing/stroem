@@ -1,6 +1,7 @@
 .. _Power connector:
+
 DC Power Socket
-******************
+***************
 
 .. sidebar:: Parts information
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
