@@ -1,3 +1,5 @@
+.. _main cabinet assembly:
+
 Assembling the main cabinet
 ***************************
 

@@ -1,3 +1,5 @@
+.. _cabinet baffle:
+
 Cabinet Baffle
 **************
 
