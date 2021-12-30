@@ -7,9 +7,6 @@ Cabinet Assembly
 
   Still missing these sections:
 
-  1. main cabinet
-  2. DC socker + wire
-  3. baffle
   4. linoleum
   5. drivers
   6. back panel

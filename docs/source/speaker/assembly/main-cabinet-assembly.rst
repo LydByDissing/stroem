@@ -52,13 +52,7 @@ Assembly video
 To make it more clear how all these parts comes together, a short video showing an exploded view of the speaker can be found below.
 This highlights how all the parts fit together with each other.
 
-.. raw:: html
-
-  <video width="600" height="600" controls>
-    <source src="/_static/main-cabinet-assembly.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
+.. youtube:: -KRVnBKZZOo
 
 Downloads
 ---------

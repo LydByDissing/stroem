@@ -32,7 +32,8 @@ extensions = [
     'sphinx_charts.charts',
     'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
-    "sphinx-favicon"
+    'sphinx-favicon',
+    'sphinxcontrib.youtube'
 ]
 
 # Display todos by setting to True
