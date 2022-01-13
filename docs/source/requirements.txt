@@ -1,6 +1,6 @@
 sphinx-rtd-theme>=1.0.0
 rst2html>=2020.7.4
-docutils>=0.17.1
+docutils>=0.16
 rst2pdf>=0.98
 sphinx_charts>=0.0.4
 plotly>=5.4.0
