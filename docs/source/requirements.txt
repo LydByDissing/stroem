@@ -10,3 +10,5 @@ fitz>=0.0.1.dev2
 PyMuPDF>=1.19.3
 sphinx-favicon>=0.2
 sphinxcontrib-youtube>=1.0.1
+sphinx-panels>=0.6.0
+sphinx-toolbox=>2.15.3

@@ -34,3 +34,15 @@ Downloads
 Download the drawing as a PDF :download:`cabinet-layer-2-drawing.pdf <cabinet-layer-2/cabinet-layer-2-drawing.pdf>`.
 
 Download the CAD file in .STEP format :download:`cabinet-layer-2.step <cabinet-layer-2/cabinet-layer-2.step>`.
+
+.. panels::
+    :column: col-lg-12
+
+    Fusion 360 Source Files
+    ^^^^^^^^^^^^^^^^^^^^^^^
+
+    *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
+
+    .. link-button:: https://a360.co/3Fishtr
+        :classes: btn-success
+        :text: Access source files

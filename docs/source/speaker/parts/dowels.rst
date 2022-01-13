@@ -1,3 +1,5 @@
+:partsId: OOWEOE
+
 .. _`dowels`:
 
 Dowels
@@ -8,7 +10,7 @@ Dowels
 
   | **Part name**: *Dowels*
   | **Parts ID**: OOWEOE
-  | **Material**: *6mm, wood*
+  | **Material**: *8mm, wood*
 
 When assembling the cabinet dowels are needed for easy alignment of the different layers.
 

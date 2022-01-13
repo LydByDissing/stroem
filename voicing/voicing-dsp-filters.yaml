@@ -23,18 +23,18 @@ mixers:
       - dest: 0
         sources:
           - channel: 0
-            gain: -6
+            gain: -3
             inverted: false
           - channel: 1
-            gain: -6
+            gain: -3
             inverted: false
       - dest: 1
         sources:
           - channel: 0
-            gain: -6
+            gain: -3
             inverted: false
           - channel: 1
-            gain: -6
+            gain: -3
             inverted: false
 
 filters:
@@ -48,7 +48,7 @@ filters:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 123
+      freq: 80
       gain: -12
       slope: 6
   highshelf_5k:
@@ -64,13 +64,13 @@ filters:
       type: Lowpass
       freq: 14300
       q: 0.707
-  peak_182:
+  peak_80:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 182
-      q: 10
-      gain: -9.0
+      freq: 80
+      q: 1
+      gain: 5
   peak_316:
     type: Biquad
     parameters:
@@ -78,6 +78,28 @@ filters:
       freq: 316
       q: 5
       gain: -12.3
+  peak_868:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 868
+      q: 1.5
+      gain: -9
+  peak_10500:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 10500
+      q: 2
+      gain: -3
+  channel_timing_fix:
+    type: Delay
+    parameters:
+      delay: 0.1
+      unit: ms
+      subsample: false
+
+
 
 pipeline:
   - type: Mixer
@@ -86,47 +108,22 @@ pipeline:
     channel: 0
     names:
       - LR_highpass
+      - highshelf_123
+      - highshelf_5k
+      - highshelf_12k
+      - peak_80
+      - peak_316
+      - peak_868
+      - peak_10500
+      - channel_timing_fix
   - type: Filter
     channel: 1
     names:
       - LR_highpass
-  - type: Filter
-    channel: 0
-    names:
       - highshelf_123
-  - type: Filter
-    channel: 1
-    names:
-      - highshelf_123
-  - type: Filter
-    channel: 0
-    names:
       - highshelf_5k
-  - type: Filter
-    channel: 1
-    names:
-      - highshelf_5k
-  - type: Filter
-    channel: 0
-    names:
       - highshelf_12k
-  - type: Filter
-    channel: 1
-    names:
-      - highshelf_12k
-  - type: Filter
-    channel: 0
-    names:
+      - peak_80
       - peak_316
-  - type: Filter
-    channel: 1
-    names:
-      - peak_316
-  - type: Filter
-    channel: 0
-    names:
-      - peak_316
-  - type: Filter
-    channel: 1
-    names:
-      - peak_316
+      - peak_868
+      - peak_10500

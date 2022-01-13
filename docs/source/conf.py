@@ -33,7 +33,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
     'sphinx-favicon',
-    'sphinxcontrib.youtube'
+    'sphinxcontrib.youtube',
+    'sphinx_panels',
 ]
 
 # Display todos by setting to True
@@ -54,6 +55,10 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+
+## Toolbox options
+#github_username = 'LydByDissing'
+#github_repository = 'stroem'
 
 # -- Options for HTML output -------------------------------------------------
 

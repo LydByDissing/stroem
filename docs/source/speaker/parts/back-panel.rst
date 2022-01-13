@@ -35,3 +35,15 @@ Downloads
 Download the drawing as a PDF :download:`back-panel-drawing.pdf <back-panel/back-panel-drawing.pdf>`.
 
 Download the CAD file in .STEP format :download:`back-panel.step <back-panel/back-panel.step>`.
+
+.. panels::
+    :column: col-lg-12
+
+    Fusion 360 Source Files
+    ^^^^^^^^^^^^^^^^^^^^^^^
+
+    *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
+
+    .. link-button:: https://a360.co/3rhPEhy
+        :classes: btn-success
+        :text: Access source files
