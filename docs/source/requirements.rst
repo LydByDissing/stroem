@@ -1,3 +1,5 @@
+.. _Requirements:
+
 Requirements
 ############
 The main goal of the *Strøm* open source speaker project are to create a fully functional and open source "wifi speaker".
@@ -48,11 +50,15 @@ With this project it is not the goal to create another `boombox <https://en.wiki
 However a slight bass boost at lower SPL levels to accommodate for the non-linear human hearing will make the speaker sound natural a lower sound pressure levels (SPL). This boost should be less pronounced at higher SPL levels; the dynamic part of this requirement can become hard to realize, but it will make for a much more appealing listening proposition.
 A non exhaustive lists of further considerations:
 
+.. acoustic-requirements-start
+
 * Max SPL of 100dB
 * Frequency range: 80Hz - 17kHz; ±3dB
 * Reasonable flat response; within ±4dB
 * High speech intelligibility
 * SPL dependent bass boost to match the nonlinearity of the human hearing
+
+.. acoustic-requirements-end
 
 Drivers
 =======
