@@ -23,18 +23,18 @@ mixers:
       - dest: 0
         sources:
           - channel: 0
-            gain: -3
+            gain: -6
             inverted: false
           - channel: 1
-            gain: -3
+            gain: -6
             inverted: false
       - dest: 1
         sources:
           - channel: 0
-            gain: -3
+            gain: -6
             inverted: false
           - channel: 1
-            gain: -3
+            gain: -6
             inverted: false
 
 filters:
@@ -70,7 +70,7 @@ filters:
       type: Peaking
       freq: 80
       q: 1
-      gain: 5
+      gain: 3
   peak_316:
     type: Biquad
     parameters:
@@ -98,8 +98,10 @@ filters:
       delay: 0.1
       unit: ms
       subsample: false
-
-
+  gain_to_normal_level:
+    type: Gain
+    parameters:
+      gain: 4
 
 pipeline:
   - type: Mixer
@@ -115,7 +117,8 @@ pipeline:
       - peak_316
       - peak_868
       - peak_10500
-      - channel_timing_fix
+      #- channel_timing_fix
+      - gain_to_normal_level
   - type: Filter
     channel: 1
     names:
@@ -127,3 +130,4 @@ pipeline:
       - peak_316
       - peak_868
       - peak_10500
+      - gain_to_normal_level
