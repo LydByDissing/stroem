@@ -70,7 +70,7 @@ filters:
       type: Peaking
       freq: 80
       q: 1
-      gain: 3
+      gain: 4
   peak_316:
     type: Biquad
     parameters:
@@ -101,7 +101,7 @@ filters:
   gain_to_normal_level:
     type: Gain
     parameters:
-      gain: 4
+      gain: 3
 
 pipeline:
   - type: Mixer
