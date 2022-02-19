@@ -3,7 +3,7 @@ name: Implementation task
 about: Tasks with a clear and defined scope that is ready to implement (not a feature
   request)
 title: ''
-labels: enhancement
+labels: original project scope
 assignees: ''
 
 ---
