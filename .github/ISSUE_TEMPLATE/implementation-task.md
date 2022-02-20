@@ -13,9 +13,9 @@ assignees: ''
 **Add a detailed description of the scope of this task**
 
 ### Definition of Done
-1. list
-2. all
-3. items
+- [] list
+- [] all
+- [] items
 
 #### Documentation
 Which part of the documentation needs to be updated or extended?
