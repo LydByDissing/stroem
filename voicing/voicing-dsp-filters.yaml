@@ -51,6 +51,20 @@ filters:
       freq: 80
       gain: -12
       slope: 6
+  highshelf_voice_low:
+    type: Biquad
+    parameters:
+      type: Highshelf
+      freq: 1000
+      gain: 3
+      slope: 6
+  highshelf_voice_high:
+    type: Biquad
+    parameters:
+      type: Highshelf
+      freq: 7000
+      gain: -3
+      slope: 6
   highshelf_5k:
     type: Biquad
     parameters:
@@ -111,6 +125,8 @@ pipeline:
     names:
       - LR_highpass
       - highshelf_123
+      - highshelf_voice_low
+      - highshelf_voice_high
       - highshelf_5k
       - highshelf_12k
       - peak_80
@@ -124,6 +140,8 @@ pipeline:
     names:
       - LR_highpass
       - highshelf_123
+      - highshelf_voice_low
+      - highshelf_voice_high
       - highshelf_5k
       - highshelf_12k
       - peak_80
