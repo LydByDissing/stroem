@@ -37,8 +37,10 @@ The code resides in the Strøm GitHub repo ([LydByDissing/stroem](https://github
 ## Contributions and collaboration
 We love contributions! And all forms of contributions and collaborations are welcome.
 
-The development of the speaker and most of the involved parts are tracked here at [Wikifactory](https://wikifactory.com/+opennext/lydbydissing).
+The development of the speaker and most of the involved parts are tracked here at [LydByDissing/stroem](hhttps://github.com/LydByDissing/stroem).
 The main documentation of the project, the parts and the assembly process and any permanent documentation are documented using the Sphinx documentation framework as mentioned above.
 
 ### Want to participate, but not sure where to start?
-Take a look at one of the open [issues](https://wikifactory.com/+opennext/lydbydissing/issues) already created and chip in with your knowledge and experience. Sometimes all it takes is a single comment, to push a someone else in the right direction; so don't hold yourself back.
+Take a look at one of the open [issues](https://github.com/LydByDissing/stroem/issues) already created and chip in with your knowledge and experience. Sometimes all it takes is a single comment, to push a someone else in the right direction; so don't hold yourself back.
+
+Or read our [contributing guidelines](https://github.com/LydByDissing/stroem/blob/main/CONTRIBUTING.md) for further details on how to be involved.
