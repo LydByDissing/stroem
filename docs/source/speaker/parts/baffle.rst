@@ -7,7 +7,7 @@ Cabinet Baffle
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Baffle*
-  | **Parts ID**: 3T2LAJ
+  | **Parts ID**: UV9CFZ
   | **Material**: 12mm, MDF
 
 Part description
