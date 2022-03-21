@@ -34,7 +34,7 @@ Downloads
 
 Download the drawing as a PDF :download:`back-panel-drawing.pdf <back-panel/back-panel-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`back-panel.step <back-panel/back-panel.step>`.
+Download the CAD file in .STEP format :download:`back-panel.step <../../../../CAD/back-panel.step>`.
 
 .. panels::
     :column: col-lg-12

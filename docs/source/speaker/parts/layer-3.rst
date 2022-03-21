@@ -37,7 +37,7 @@ Downloads
 
 Download the drawing as a PDF :download:`cabinet-layer-3-drawing.pdf <cabinet-layer-3/cabinet-layer-3-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`cabinet-layer-3.step <cabinet-layer-3/cabinet-layer-3.step>`.
+Download the CAD file in .STEP format :download:`cabinet-layer-3.step <../../../../CAD/cabinet-layer-3.step>`.
 
 .. panels::
     :column: col-lg-12

@@ -40,7 +40,7 @@ Downloads
 
 Download the drawing as a PDF :download:`baffle-drawing.pdf <baffle/baffle-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`baffle.step <baffle/baffle.step>`.
+Download the CAD file in .STEP format :download:`baffle.step <../../../../CAD/baffle.step>`.
 
 .. panels::
     :column: col-lg-12

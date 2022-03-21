@@ -32,7 +32,7 @@ Downloads
 
 Download the drawing as a PDF :download:`cabinet-layer-1-drawing.pdf <cabinet-layer-1/cabinet-layer-1-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`cabinet-layer-1.step <cabinet-layer-1/cabinet-layer-1.step>`.
+Download the CAD file in .STEP format :download:`cabinet-layer-1.step <../../../../CAD/cabinet-layer-1.step>`.
 
 .. panels::
     :column: col-lg-12
