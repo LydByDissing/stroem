@@ -47,6 +47,6 @@ Download the CAD file in .STEP format :download:`cabinet-layer-3.step <../../../
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3zRe7yh
+    .. link-button:: https://a360.co/3qnsabp
         :classes: btn-success
         :text: Access source files

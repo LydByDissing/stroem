@@ -50,6 +50,6 @@ Download the CAD file in .STEP format :download:`baffle.step <../../../../CAD/ba
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/31U1C8B
+    .. link-button:: https://a360.co/3IsP1Zk
         :classes: btn-success
         :text: Access source files

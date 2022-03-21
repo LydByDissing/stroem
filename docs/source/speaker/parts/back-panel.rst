@@ -44,6 +44,6 @@ Download the CAD file in .STEP format :download:`back-panel.step <../../../../CA
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3rhPEhy
+    .. link-button:: https://a360.co/3wm5ZpP
         :classes: btn-success
         :text: Access source files
