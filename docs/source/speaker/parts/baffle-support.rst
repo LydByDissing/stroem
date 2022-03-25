@@ -31,7 +31,7 @@ Downloads
 
 Download the drawing as a PDF :download:`cabinet-layer-1-drawing.pdf <cabinet-layer-1/cabinet-layer-1-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`cabinet-layer-1.step <../../../../CAD/baffle-support.step>`.
+Download the CAD file in .STEP format :download:`baffle-support.step <../../../../CAD/baffle-support.step>`.
 
 .. panels::
     :column: col-lg-12
