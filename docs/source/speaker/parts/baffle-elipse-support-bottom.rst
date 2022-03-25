@@ -20,7 +20,7 @@ It is also used to ensure proper fixation of the wall mounting bracket.
 
 This part is needed in a sub assembly.
 
-.. image:: cabinet-layer-1/cabinet-layer-1-drawing.png
+.. image:: baffle-support/baffle-elipse-support-bottom-drawing.png
   :width: 500
   :alt: Drawing with measurements of the back panel
 
@@ -31,7 +31,7 @@ This part doesn't require any finish.
 Downloads
 ---------
 
-Download the drawing as a PDF :download:`cabinet-layer-1-drawing.pdf <cabinet-layer-1/cabinet-layer-1-drawing.pdf>`.
+Download the drawing as a PDF :download:`baffle-elipse-support-bottom.pdf <baffle-support/baffle-elipse-support-bottom-drawing.pdf>`.
 
 Download the CAD file in .STEP format :download:`baffle-elipse-support-bottom.step <../../../../CAD/baffle-elipse-support-bottom.step>`.
 

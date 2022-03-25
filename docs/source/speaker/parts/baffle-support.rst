@@ -18,7 +18,7 @@ As the drivers are very close together the baffle becomes rather thin and will t
 
 This part is needed in a sub assembly.
 
-.. image:: cabinet-layer-1/cabinet-layer-1-drawing.png
+.. image:: baffle-support/baffle-support-drawing.png
   :width: 500
   :alt: Drawing with measurements of the back panel
 
@@ -29,7 +29,7 @@ This part doesn't require any finish.
 Downloads
 ---------
 
-Download the drawing as a PDF :download:`cabinet-layer-1-drawing.pdf <cabinet-layer-1/cabinet-layer-1-drawing.pdf>`.
+Download the drawing as a PDF :download:`baffle-support-drawing.pdf <baffle-support/baffle-support-drawing.pdf>`.
 
 Download the CAD file in .STEP format :download:`baffle-support.step <../../../../CAD/baffle-support.step>`.
 
