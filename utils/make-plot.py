@@ -9,14 +9,16 @@ def main(argv):
     inputfile = ''
     outputfile = ''
     headerStr = ''
+    minSPL = 60
+    maxSPL = 105
     try:
-        opts, args = getopt.getopt(argv,"hi:o:c:",["ifile=","ofile=","header="])
+        opts, args = getopt.getopt(argv,"hi:o:c:m:n",["ifile=","ofile=","header=","min=","max="])
     except getopt.GetoptError:
-        print ('test.py -i <inputfile> -o <outputfile> -c <header>')
+        print ('test.py -i <inputfile> -o <outputfile> -c <header> [--min <min SPL>] [--max <max SPL>]')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ('test.py -i <inputfile> -o <outputfile> -c <header>')
+            print ('test.py -i <inputfile> -o <outputfile> -c <header> [--min <min SPL>] [--max <max SPL>]')
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputfile = arg
@@ -24,6 +26,10 @@ def main(argv):
             outputfile = arg
         elif opt in ("-c", "--header"):
             headerStr = arg
+        elif opt in ("-n", "--min"):
+            minSPL = arg
+        elif opt in ("-m", "--max"):
+            maxSPL = arg
 
     inputWithComments = open(inputfile, "r")
     # strip out comments
@@ -69,7 +75,7 @@ def main(argv):
                             color="#1f77b4"
                         ),
                         constrain='range',
-                        range=[50,125]
+                        range=[minSPL,maxSPL]
                       ),
                       yaxis2=dict(
                         title=header[2],
