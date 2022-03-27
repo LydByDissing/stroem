@@ -7,11 +7,12 @@ Cabinet Layer 2
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Cabinet layer 1*
-  | **Parts ID**: G9SHW9
+  | **Parts ID**: Q6CMJV
   | **Material**: 12mm, MDF
 
 Part description
 ----------------
+
 This is the middle layer of the cabinet. To make room for the DC barrel power socket, a matching slot is cutout. this is done so the socket is counter sunk into the materiel.
 
 In the middle of the part a couple of circles are cutout to indicate the layer number. Two circles equals layer 2.
@@ -26,6 +27,7 @@ The three larger holes (Ø6mm) are using for aligning the three layers during ca
 
 Finish
 ------
+
 This part doesn't require any finish.
 
 Downloads
@@ -33,7 +35,7 @@ Downloads
 
 Download the drawing as a PDF :download:`cabinet-layer-2-drawing.pdf <cabinet-layer-2/cabinet-layer-2-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`cabinet-layer-2.step <cabinet-layer-2/cabinet-layer-2.step>`.
+Download the CAD file in .STEP format :download:`cabinet-layer-2.step <../../../../CAD/cabinet-layer-2.step>`.
 
 .. panels::
     :column: col-lg-12
@@ -43,6 +45,6 @@ Download the CAD file in .STEP format :download:`cabinet-layer-2.step <cabinet-l
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3Fishtr
+    .. link-button:: https://a360.co/37I9c8J
         :classes: btn-success
         :text: Access source files

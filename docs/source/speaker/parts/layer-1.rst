@@ -7,11 +7,12 @@ Cabinet Layer 1
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Cabinet layer 1*
-  | **Parts ID**: N785IG
+  | **Parts ID**: 27YWKJ
   | **Material**: 12mm, MDF
 
 Part description
 ----------------
+
 This is the bottom layer of the cabinet. Here speaker wire cable tracks are cut into the materiel.
 To make room for the DC barrel power plug, a large keyhole slot is cutout.
 
@@ -25,6 +26,7 @@ The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting t
 
 Finish
 ------
+
 This part doesn't require any finish.
 
 Downloads
@@ -32,7 +34,7 @@ Downloads
 
 Download the drawing as a PDF :download:`cabinet-layer-1-drawing.pdf <cabinet-layer-1/cabinet-layer-1-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`cabinet-layer-1.step <cabinet-layer-1/cabinet-layer-1.step>`.
+Download the CAD file in .STEP format :download:`cabinet-layer-1.step <../../../../CAD/cabinet-layer-1.step>`.
 
 .. panels::
     :column: col-lg-12
@@ -42,6 +44,6 @@ Download the CAD file in .STEP format :download:`cabinet-layer-1.step <cabinet-l
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3HY5Qve
+    .. link-button:: https://a360.co/3wpDXcN
         :classes: btn-success
         :text: Access source files

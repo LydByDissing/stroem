@@ -1,0 +1,46 @@
+.. _baffle support:
+
+Baffle Support
+**************
+
+.. sidebar:: Parts information
+  :subtitle: See the below for a quick overview of the naming and ID information of this part.
+
+  | **Part name**: *Baffle Support*
+  | **Parts ID**: HIQC82
+  | **Material**: 12mm, MDF
+
+Part description
+----------------
+
+This part helps support the baffle and stiffen the cabinet.
+As the drivers are very close together the baffle becomes rather thin and will therefore benefit from being reenforced.
+
+This part is needed in a sub assembly.
+
+.. image:: baffle-support/baffle-support-drawing.png
+  :width: 500
+  :alt: Drawing with measurements of the back panel
+
+Finish
+------
+This part doesn't require any finish.
+
+Downloads
+---------
+
+Download the drawing as a PDF :download:`baffle-support-drawing.pdf <baffle-support/baffle-support-drawing.pdf>`.
+
+Download the CAD file in .STEP format :download:`baffle-support.step <../../../../CAD/baffle-support.step>`.
+
+.. panels::
+    :column: col-lg-12
+
+    Fusion 360 Source Files
+    ^^^^^^^^^^^^^^^^^^^^^^^
+
+    *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
+
+    .. link-button:: https://a360.co/3wmIEnS
+        :classes: btn-success
+        :text: Access source files

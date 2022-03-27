@@ -7,7 +7,7 @@ Cabinet Baffle
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Baffle*
-  | **Parts ID**: 3T2LAJ
+  | **Parts ID**: UV9CFZ
   | **Material**: 12mm, MDF
 
 Part description
@@ -40,7 +40,7 @@ Downloads
 
 Download the drawing as a PDF :download:`baffle-drawing.pdf <baffle/baffle-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`baffle.step <baffle/baffle.step>`.
+Download the CAD file in .STEP format :download:`baffle.step <../../../../CAD/baffle.step>`.
 
 .. panels::
     :column: col-lg-12
@@ -50,6 +50,6 @@ Download the CAD file in .STEP format :download:`baffle.step <baffle/baffle.step
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/31U1C8B
+    .. link-button:: https://a360.co/3IsP1Zk
         :classes: btn-success
         :text: Access source files

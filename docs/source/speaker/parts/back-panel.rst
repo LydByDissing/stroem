@@ -5,7 +5,7 @@ Back Panel
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Back Panel*
-  | **Parts ID**: SC2GAF
+  | **Parts ID**: I25UNV
   | **Material**: 6mm, Black MDF
 
 Part description
@@ -34,7 +34,7 @@ Downloads
 
 Download the drawing as a PDF :download:`back-panel-drawing.pdf <back-panel/back-panel-drawing.pdf>`.
 
-Download the CAD file in .STEP format :download:`back-panel.step <back-panel/back-panel.step>`.
+Download the CAD file in .STEP format :download:`back-panel.step <../../../../CAD/back-panel.step>`.
 
 .. panels::
     :column: col-lg-12
@@ -44,6 +44,6 @@ Download the CAD file in .STEP format :download:`back-panel.step <back-panel/bac
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3rhPEhy
+    .. link-button:: https://a360.co/3wm5ZpP
         :classes: btn-success
         :text: Access source files
