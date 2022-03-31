@@ -62,8 +62,8 @@ filters:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 5000
-      gain: 3.5
+      freq: 2000
+      gain: 5
       slope: 12
   LS_1_positive:
     type: Biquad
@@ -76,8 +76,8 @@ filters:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 535
-      gain: 3
+      freq: 675
+      gain: 4.5
       q: 3
   peak_2:
     type: Biquad
@@ -97,16 +97,16 @@ filters:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 2040
-      gain: 3.2
+      freq: 180
+      gain: -2.3
       q: 3
   peak_16k:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 16000
+      freq: 15000
       gain: -3
-      q: 4
+      q: 3
   peak_5:
     type: Biquad
     parameters:
