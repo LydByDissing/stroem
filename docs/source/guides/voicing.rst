@@ -67,7 +67,7 @@ The frequency and phase response are depicted. It is worth noting that the resul
 Adjusting the response
 ----------------------
 
-As a developement workflow I am using the great `HEnquist/camilladsp <https://github.com/HEnquist/camilladsp>`_ project. This makes it possible to specify the filter banks as a simple YAML config file. For the initial 80Hz target tuning this file have been used: `voicing/voicing-80hz-target.yaml <https://github.com/LydByDissing/stroem/tree/main/voicing>`_`.
+As a developement workflow I am using the great `HEnquist/camilladsp <https://github.com/HEnquist/camilladsp>`_ project. This makes it possible to specify the filter banks as a simple YAML config file. For the initial 80Hz target tuning this file have been used: `voicing/voicing-80hz-target.yaml <https://github.com/LydByDissing/stroem/tree/main/voicing>`_.
 
 As we can't make the bass higher – without additional :math:`X_{max}` of the driver - we need to lower the rest of the frequency response. This will lower the overall efficiency of the speaker, but result in a much more linear frequency response. See the below graph for a measurement of the inital filters applied to the signal chain.
 
