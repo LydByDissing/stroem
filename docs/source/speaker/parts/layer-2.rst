@@ -13,13 +13,11 @@ Cabinet Layer 2
 Part description
 ----------------
 
-This is the middle layer of the cabinet. To make room for the DC barrel power socket, a matching slot is cutout. this is done so the socket is counter sunk into the materiel.
+This is the middle layer of the cabinet. To make room for the DC barrel power socket, a matching DC socket mounting hole is cutout. Half of this hole are counter sunk at a wider diameter (Ø11,5) to accommodate for the wider diameter of the DC plug itself - to ensure that this plugin can be fully consealed within the cabinet (for on wall placement).
 
 In the middle of the part a couple of circles are cutout to indicate the layer number. Two circles equals layer 2.
 
-The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting the back plate to the main cabinet. Depending on the length on the screws used when mounting the back panel, these holes need to be bored.
-The three larger holes (Ø6mm) are using for aligning the three layers during cabinet assembly.
-
+The three larger holes (Ø8,5mm) are for dowels, used for aligning the three layers during cabinet assembly.
 
 .. image:: cabinet-layer-2/cabinet-layer-2-drawing.png
   :width: 500
