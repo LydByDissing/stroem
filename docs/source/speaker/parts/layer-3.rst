@@ -13,17 +13,12 @@ Cabinet Layer 3
 Part description
 ----------------
 
-This is the third layer of the cabinet. A long DC power cable track are cut into this layers. This helps route the wires from the DC socket to the PCB; which is placed in the upper left compartment.
+This is the third layer of the cabinet - counting form the baffle. Here a large keyhole slot a cut to make room for the DC jack, an L-bracket adaptor and a little wire. All in all to make sure that the power connections are consealed when mounted to a wall.
 
 In the middle of the part a couple of circles are cutout to indicate the layer number. Three circles equals layer 3.
 
-The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting the back plate to the main cabinet. Depending on the length on the screws used when mounting the back panel, these holes need to be bored
-
-.. note::
-
-	The back panel mounting holes can likely be omitted in this part, as the back panel mounting screws are unlikely to reach this far into the cabinet.
-
-The three larger holes (Ø6mm) are using for aligning the three layers during cabinet assembly.
+The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting the back plate to the main cabinet.
+The three larger holes (Ø8,5mm) are for dowels, used for aligning the three layers during cabinet assembly.
 
 .. image:: cabinet-layer-3/cabinet-layer-3-drawing.png
   :width: 500

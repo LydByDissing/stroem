@@ -13,12 +13,12 @@ Cabinet Layer 1
 Part description
 ----------------
 
-This is the bottom layer of the cabinet. Here speaker wire cable tracks are cut into the materiel.
-To make room for the DC barrel power plug, a large keyhole slot is cutout.
+This is the first layer of the cabinet, connecting directly to the baffle.
+To make room for the DC barrel power plug and it's wires, a mounting hole and a tapering slot are cut. This helps guide the DC power cables from the DC socket.
 
 In the middle of the part a single circle is cutout to indicate the layer number. One circle equals layer 1.
 
-The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting the back plate to the main cabinet. The three larger holes (Ø6mm) are using for aligning the three layers during cabinet assembly.
+The three larger holes (Ø8,5mm) are for dowels, used for aligning the three layers during cabinet assembly.
 
 .. image:: cabinet-layer-1/cabinet-layer-1-drawing.png
   :width: 500
