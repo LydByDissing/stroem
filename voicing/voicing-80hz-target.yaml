@@ -1,6 +1,7 @@
 ---
 devices:
-  samplerate: 44100
+  #samplerate: 44100
+  samplerate: 48000
   chunksize: 8192
   capture:
     type: CoreAudio
@@ -114,6 +115,13 @@ filters:
       freq: 1000
       gain: 1.3
       q: 0.8
+  peak_6:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 3300
+      gain: 3
+      q: 3
   gain_to_normal_level:
     type: Gain
     parameters:
@@ -136,6 +144,7 @@ pipeline:
       - peak_4
       - peak_16k
       - peak_5
+      - peak_6
       - gain_to_normal_level
   - type: Filter
     channel: 1
@@ -151,4 +160,5 @@ pipeline:
       - peak_4
       - peak_16k
       - peak_5
+      - peak_6
       - gain_to_normal_level
