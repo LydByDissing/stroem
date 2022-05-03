@@ -1,6 +1,6 @@
 sphinx-rtd-theme>=1.0.0
 rst2html>=2020.7.4
-docutils>=0.16
+docutils<0.18>=0.17
 rst2pdf>=0.98
 sphinx_charts>=0.0.4
 plotly>=5.4.0
@@ -12,3 +12,8 @@ sphinx-favicon>=0.2
 sphinxcontrib-youtube>=1.0.1
 sphinx-panels>=0.6.0
 sphinx-toolbox>=2.15.3
+MarkupSafe>=2.1.1
+jinja2>=3.1.2
+myst-parser>=0.17.2
+sphinxemoji>=0.2.0
+sphinx-last-updated-by-git>=0.3.2
