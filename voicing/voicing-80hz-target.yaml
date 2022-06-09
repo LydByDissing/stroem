@@ -43,7 +43,7 @@ filters:
     type: BiquadCombo
     parameters:
       type: LinkwitzRileyHighpass
-      freq: 45
+      freq: 50
       order: 8
   HS_1_negative:
     type: Biquad
@@ -85,7 +85,7 @@ filters:
     parameters:
       type: Peaking
       freq: 78
-      gain: 9
+      gain: 4
       q: 2.4
   peak_3:
     type: Biquad
@@ -128,8 +128,8 @@ filters:
       gain: -6
 
 pipeline:
-  - type: Mixer
-    name: mono
+#  - type: Mixer
+#    name: mono
   - type: Filter
     channel: 0
     names:

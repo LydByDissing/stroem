@@ -42,7 +42,7 @@ filters:
     type: BiquadCombo
     parameters:
       type: LinkwitzRileyHighpass
-      freq: 50
+      freq: 52
       order: 8
   LR_lowpass:
     type: BiquadCombo
