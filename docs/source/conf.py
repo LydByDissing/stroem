@@ -35,7 +35,13 @@ extensions = [
     'sphinx-favicon',
     'sphinxcontrib.youtube',
     'sphinx_panels',
+    'myst_parser',
+    'sphinxemoji.sphinxemoji',
+    'sphinx_last_updated_by_git',
 ]
+
+sphinxemoji_style = 'twemoji'
+source_suffix = ['.rst', '.md']
 
 # Display todos by setting to True
 todo_include_todos = True

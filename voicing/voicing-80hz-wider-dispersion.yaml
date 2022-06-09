@@ -1,7 +1,6 @@
 ---
 devices:
-  #samplerate: 44100
-  samplerate: 48000
+  samplerate: 44100
   chunksize: 8192
   capture:
     type: CoreAudio
@@ -43,122 +42,164 @@ filters:
     type: BiquadCombo
     parameters:
       type: LinkwitzRileyHighpass
-      freq: 50
+      freq: 52
       order: 8
+  LR_lowpass:
+    type: BiquadCombo
+    parameters:
+      type: LinkwitzRileyLowpass
+      freq: 3500
+      order: 4
   HS_1_negative:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 117
+      freq: 100
       gain: -10
-      slope: 6
+      slope: 12
   HS_2_positive:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 506
-      gain: 2.9
-      slope: 6
-  HS_3_positive:
+      freq: 1800
+      gain: 9
+      slope: 12
+  HS_2_negative:
     type: Biquad
     parameters:
       type: Highshelf
-      freq: 2000
-      gain: 5
-      slope: 12
-  LS_1_positive:
+      #freq: 4500
+      #gain: -4.5
+      freq: 3230
+      gain: -6
+      slope: 6
+  HS_3_negative:
     type: Biquad
     parameters:
-      type: Lowshelf
-      freq: 173
-      gain: 2.0
+      type: Highshelf
+      freq: 350
+      gain: -1.4
       slope: 6
   peak_1:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 675
-      gain: 4.5
+      freq: 78
+      gain: 10
       q: 3
   peak_2:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 78
-      gain: 4
-      q: 2.4
+      freq: 185
+      gain: -3.8
+      q: 2
   peak_3:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 96
+      freq: 650
       gain: 4
-      q: 3
+      q: 6
   peak_4:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 180
-      gain: -2.3
-      q: 3
-  peak_16k:
-    type: Biquad
-    parameters:
-      type: Peaking
-      freq: 15000
-      gain: -3
-      q: 3
+      freq: 529
+      gain: -3.5
+      q: 6
   peak_5:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 1000
-      gain: 1.3
-      q: 0.8
+      freq: 1415
+      gain: -2
+      q: 2.5
   peak_6:
     type: Biquad
     parameters:
       type: Peaking
-      freq: 3300
+      freq: 60
+      gain: 6
+      q: 5
+  peak_7:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 3200
+      gain: 3
+      q: 5
+  peak_8:
+    type: Biquad
+    parameters:
+      type: Peaking
+      freq: 6600
       gain: 3
       q: 3
+
   gain_to_normal_level:
     type: Gain
     parameters:
-      gain: -6
+      gain: -5
 
 pipeline:
-#  - type: Mixer
-#    name: mono
+  - type: Mixer
+    name: mono
   - type: Filter
     channel: 0
     names:
       - LR_highpass_60
+      - LR_lowpass
       - HS_1_negative
       - HS_2_positive
-      - HS_3_positive
-      - LS_1_positive
+      - HS_2_negative
+      - HS_3_negative
       - peak_1
       - peak_2
       - peak_3
       - peak_4
-      - peak_16k
       - peak_5
       - peak_6
+      - peak_7
+      - peak_8
       - gain_to_normal_level
+
+#      - HS_1_negative
+#      - HS_2_positive
+#      - HS_3_positive
+#      - LS_1_positive
+#      - peak_1
+#      - peak_2
+#      - peak_3
+#      - peak_4
+#      - peak_16k
+#      - peak_5
+
   - type: Filter
     channel: 1
     names:
       - LR_highpass_60
       - HS_1_negative
       - HS_2_positive
-      - HS_3_positive
-      - LS_1_positive
+      - HS_2_negative
+      - HS_3_negative
       - peak_1
       - peak_2
       - peak_3
       - peak_4
-      - peak_16k
       - peak_5
       - peak_6
+      - peak_7
+      - peak_8
       - gain_to_normal_level
+
+#      - HS_1_negative
+#      - HS_2_positive
+#      - HS_3_positive
+#      - LS_1_positive
+#      - peak_1
+#      - peak_2
+#      - peak_3
+#      - peak_4
+#      - peak_16k
+#      - peak_5
