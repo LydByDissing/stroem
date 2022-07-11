@@ -14,8 +14,11 @@ The *Strøm* open source speaker project have been started with the main goal of
   user-documentation/index
   repair
   end-of-life
+<<<<<<< HEAD
   speaker/index
   software/index
+=======
+>>>>>>> 71d5f7664e155b94b3970c8661792f65731da612
   contributing
   license
   todo
