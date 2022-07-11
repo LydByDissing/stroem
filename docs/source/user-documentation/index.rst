@@ -9,3 +9,4 @@ User Documentation
    :glob:
 
    *
+   voicing/*

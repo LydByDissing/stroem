@@ -1,6 +1,6 @@
-***************
-Speaker Cabinet
-***************
+**************************
+Speaker Parts and Assembly
+**************************
 
 The speaker cabinet are constructed from MDF, as this material is well suited for this type of application. Both the low internal damping, as well as the ease of processing, of this material makes it a good choice for constructing speaker cabinets.
 
