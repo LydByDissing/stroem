@@ -7,7 +7,7 @@ Cabinet Layer 3
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Cabinet layer 1*
-  | **Parts ID**: IXD49T
+  | **Parts ID**: 7SCERM
   | **Material**: 12mm, MDF
 
 Part description
@@ -15,10 +15,8 @@ Part description
 
 This is the third layer of the cabinet - counting form the baffle. Here a large keyhole slot a cut to make room for the DC jack, an L-bracket adaptor and a little wire. All in all to make sure that the power connections are consealed when mounted to a wall.
 
-In the middle of the part a couple of circles are cutout to indicate the layer number. Three circles equals layer 3.
-
-The four small holes (Ø3,5mm) -- one in each corner -- are used when mounting the back plate to the main cabinet.
-The three larger holes (Ø8,5mm) are for dowels, used for aligning the three layers during cabinet assembly.
+The small holes (Ø2mm) are used when mounting the back plate to the main cabinet.
+The larger holes (Ø8,4mm) are for dowels, used for aligning the three layers during cabinet assembly.
 
 .. image:: cabinet-layer-3/cabinet-layer-3-drawing.png
   :width: 500
@@ -44,6 +42,6 @@ Download the CAD file in .STEP format :download:`cabinet-layer-3.step <../../../
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3qnsabp
+    .. link-button:: https://a360.co/3c8Ejg5
         :classes: btn-success
         :text: Access source files

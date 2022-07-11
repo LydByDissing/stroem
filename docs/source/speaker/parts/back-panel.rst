@@ -5,8 +5,8 @@ Back Panel
   :subtitle: See the below for a quick overview of the naming and ID information of this part.
 
   | **Part name**: *Back Panel*
-  | **Parts ID**: I25UNV
-  | **Material**: 6mm, Black MDF
+  | **Parts ID**: NMOIMO
+  | **Material**: 6mm,   MDF
 
 Part description
 ----------------
@@ -44,6 +44,6 @@ Download the CAD file in .STEP format :download:`back-panel.step <../../../../CA
 
     *The model is developed in Fusion 360. To access the original Fusion 360 source files, follow the link below.*
 
-    .. link-button:: https://a360.co/3wm5ZpP
+    .. link-button:: https://a360.co/3c2rJig
         :classes: btn-success
         :text: Access source files
