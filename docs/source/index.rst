@@ -14,6 +14,11 @@ The *Strøm* open source speaker project have been started with the main goal of
   user-documentation/index
   repair
   end-of-life
+<<<<<<< HEAD
+  speaker/index
+  software/index
+=======
+>>>>>>> 71d5f7664e155b94b3970c8661792f65731da612
   contributing
   license
   todo
@@ -57,7 +62,7 @@ Contributing to the project
 ***************************
 
 Interested in contributing to the project? Then please take a quick look at the contribution guideline beforehand.
-You find the contribution :ref:`here <contribution guideline>` and in the GitHub repo as well: `LydByDissing/stroem/CONTRIBUTING.md <https://github.com/LydByDissing/stroem/blob/main/CONTRIBUTING.md>`_.
+You find the contribution guide :ref:`here <contribution guideline>` and in the GitHub repo as well: `LydByDissing/stroem/CONTRIBUTING.md <https://github.com/LydByDissing/stroem/blob/main/CONTRIBUTING.md>`_.
 
 Last updated
 ************

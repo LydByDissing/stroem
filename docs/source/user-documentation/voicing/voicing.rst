@@ -20,7 +20,7 @@ With the Strøm speaker several design goals have been defined (see more in the 
 
 The following acoustic design goals have been set for the speaker:
 
-.. include:: ../requirements.rst
+.. include:: ../../requirements.rst
   :start-after: acoustic-requirements-start
   :end-before: acoustic-requirements-end
 
@@ -59,7 +59,7 @@ Here's the speaker measured before voicing. A single 8th order high pass (HP) fi
 
 The frequency and phase response are depicted. It is worth noting that the results haven't been normalize, resulting in that the measured dB can't be related to anything (other than other measurements using the same setup).
 
-.. chart:: guides/80hz-target-no-filter-frequency-response.json
+.. chart:: user-documentation/voicing/80hz-target-no-filter-frequency-response.json
 
     Measured frequency response of an initial test cabinet. Primarily used for validation of the internal cabinet volume.
 
@@ -71,7 +71,7 @@ As a developement workflow I am using the great `HEnquist/camilladsp <https://gi
 
 As we can't make the bass higher – without additional :math:`X_{max}` of the driver - we need to lower the rest of the frequency response. This will lower the overall efficiency of the speaker, but result in a much more linear frequency response. See the below graph for a measurement of the inital filters applied to the signal chain.
 
-.. chart:: guides/80hz-target-initial-filters-frequency-response.json
+.. chart:: user-documentation/voicing/80hz-target-initial-filters-frequency-response.json
 
     Measurement result when initial filtering have been applied.
 

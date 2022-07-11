@@ -1,3 +1,5 @@
+.. _spotify-connect:
+
 ===============
 Spotify Connect
 ===============
