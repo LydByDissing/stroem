@@ -4,9 +4,9 @@
 The _Strøm_ open source speaker project have been started with the main goal of creating a fully functional "wifi speaker", but as an open sourced product.
 
 ## License
-This project and all it's work are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+This project and all it's work are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) license.
 
-![BY NC SA License!](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg "The license")
+![BY SA License!](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg "The license")
 [![Documentation Status](https://readthedocs.org/projects/stroem/badge/?version=latest)](https://stroem.readthedocs.io/en/latest/?badge=latest)
 
 ## Project description and Design Goals
