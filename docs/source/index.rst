@@ -68,5 +68,4 @@ The mainline documentation have last been updated at |date|.
 License
 #######
 
-This project is licenced under the Creative Commons ShareAlike 4.0 with a non-commercial clause: `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
-You can read the licens in here or in the GitHub repo: `LydByDissing/stroem/LICENSE <https://github.com/LydByDissing/stroem/blob/main/LICENSE>`_.
+This project is licenced under the :ref:`Creative Commons ShareAlike 4.0 license <license>`.
