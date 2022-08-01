@@ -68,4 +68,4 @@ The mainline documentation have last been updated at |date|.
 License
 #######
 
-This project is licenced under the ::ref:`Creative Commons ShareAlike 4.0 license <license>`.
+This project is licenced under the :ref:`Creative Commons ShareAlike 4.0 license <license>`.
