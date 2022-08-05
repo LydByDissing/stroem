@@ -19,6 +19,7 @@ The *Strøm* open source speaker project have been started with the main goal of
   contributing
   license
   todo
+  changelog
 
 Read on below to get a high level `Introduction to the project`_ as a whole.
 

@@ -1,4 +1,4 @@
-# Strøm
+# STRØM
 **An Open Wifi Speaker**
 
 The _Strøm_ open source speaker project have been started with the main goal of creating a fully functional "wifi speaker", but as an open sourced product.
