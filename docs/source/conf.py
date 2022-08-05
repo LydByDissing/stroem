@@ -73,7 +73,7 @@ exclude_patterns = []
 # Provide a GitHub API token:
 # Pass the SPHINX_GITHUB_CHANGELOG_TOKEN environment variable to your build
 # OR
-sphinx_github_changelog_token = "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"
+#sphinx_github_changelog_token = 
 
 
 
