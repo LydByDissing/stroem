@@ -38,6 +38,7 @@ extensions = [
     'myst_parser',
     'sphinxemoji.sphinxemoji',
     'sphinx_last_updated_by_git',
+    'sphinx_github_changelog',
 ]
 
 sphinxemoji_style = 'twemoji'
@@ -62,9 +63,19 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
+
+
+
 ## Toolbox options
 #github_username = 'LydByDissing'
 #github_repository = 'stroem'
+
+# Provide a GitHub API token:
+# Pass the SPHINX_GITHUB_CHANGELOG_TOKEN environment variable to your build
+# OR
+sphinx_github_changelog_token = "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"
+
+
 
 # -- Options for HTML output -------------------------------------------------
 
