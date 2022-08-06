@@ -1,0 +1,3 @@
+[submodule "euphonium"]
+	path = euphonium
+	url = https://github.com/feelfreelinux/euphonium.git
