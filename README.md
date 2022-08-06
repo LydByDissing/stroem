@@ -9,6 +9,16 @@ This project and all it's work are licensed under the [Creative Commons Attribut
 ![BY SA License!](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg "The license")
 [![Documentation Status](https://readthedocs.org/projects/stroem/badge/?version=latest)](https://stroem.readthedocs.io/en/latest/?badge=latest)
 
+## Getting started
+
+### Checking out the repository
+As this project uses the git `submodule` feature to fetch all the needed source files, one would need to have this in mind when performing the checkout.
+
+To checkout everything - including all submodules - the following snippet are handy:
+```
+git clone --recurse-submodules -j$(nproc) https://github.com/LydByDissing/stroem.git
+```
+
 ## Project description and Design Goals
 As mentioned above, this project aims at designing a **wifi speaker**, capable of streaming audio using **Bluetooth** and **Spotify Connect**.
 
