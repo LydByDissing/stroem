@@ -8,7 +8,7 @@ categories:
   - title: 'Breaking'
     label: 'type: breaking'
   - title: 'New'
-    label: 'type: original project scope'
+    label: 'type: "original project scope"'
   - title: 'New'
     label: 'type: enhancement'
   - title: 'Bug Fixes'
