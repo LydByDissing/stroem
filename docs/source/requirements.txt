@@ -19,3 +19,4 @@ sphinxemoji>=0.2.0
 sphinx-last-updated-by-git>=0.3.2
 schemdraw>=0.14
 sphinx-github-changelog>=1.2.0
+myst-parser>=0.18.0
