@@ -1,9 +1,9 @@
 .DEFAULT_GOAL := esp32
-#JTAG_PORT ?= "not-yet-defined"
+JTAG_PORT ?= "/dev/ttyUSB0"
 
 copy-config:
 	@echo "Copying local cofig"
-	cp config/euphonium/scripts/extensions.be euphonium/euphonium/scripts/extensions.be
+	cp -vuR config/* euphonium/
 
 esp32: copy-config
 	cd euphonium/targets/esp32; sh generate_full_build.sh;
