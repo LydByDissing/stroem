@@ -29,3 +29,14 @@ If you miss a specific feature or functionality, then create a new _feature requ
 
 ### Something doesn't work
 If you have found a bug, then please create a detailed bug report by creating a new issue of type _bug_.
+
+### Change impact
+With any PR it is important to have in mind how this PR will affect the existing functionality and hardware in the wild. Therefore a few lables are made available to indicate the impact of each PR.
+The following lables are available:
+
+* patch
+* minor
+* major
+
+Add one of these lable to your PR to help in the review process.
+These lables are also used when calculating the next potential version tag when merging the PR.
