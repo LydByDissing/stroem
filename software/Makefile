@@ -20,6 +20,9 @@ copy-config:
 esp32: copy-config
 	cd euphonium/targets/esp32; sh generate_full_build.sh;
 
+cli: copy-config
+	cd euphonium/targets/cli/build; cmake -DCMAKE_CXX_STANDARD_LIBRARIES="-lX11 -ldl" -DHTTP_SERVER_PORT=8080 ..;
+	@$(MAKE) -C euphonium/targets/cli/build
 
 flash-all: esp32
 	@echo "flashing using this port '${JTAG_PORT}'"
