@@ -30,3 +30,11 @@ cli: copy-config
 flash-all: esp32
 	@echo "flashing using this port '${JTAG_PORT}'"
 	cd euphonium/targets/esp32; sh flash_all.sh ${JTAG_PORT};
+
+clean: clean-cli clean-esp32
+
+clean-cli:
+	@$(MAKE) -C euphonium/targets/cli/build clean
+
+clean-esp32:
+	cd euphonium/targets/esp32; idf.py fullclean;
