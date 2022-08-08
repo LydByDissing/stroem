@@ -1,12 +1,15 @@
 .DEFAULT_GOAL := esp32
 JTAG_PORT ?= "/dev/ttyUSB0"
 COPY_FLAGS := -v -R
+CMAKE_BUILD_ARGS := -DHTTP_SERVER_PORT=8080
+
 ifeq ($(OS),Windows_NT)
     #??
 else
     UNAME_S := $(shell uname -s)
     ifeq ($(UNAME_S),Linux)
         COPY_FLAGS += -u
+				CMAKE_BUILD_ARGS += -DCMAKE_CXX_STANDARD_LIBRARIES="-lX11 -ldl"
     endif
     ifeq ($(UNAME_S),Darwin)
         #COPY_FLAGS += -u
@@ -21,7 +24,7 @@ esp32: copy-config
 	cd euphonium/targets/esp32; sh generate_full_build.sh;
 
 cli: copy-config
-	cd euphonium/targets/cli/build; cmake -DCMAKE_CXX_STANDARD_LIBRARIES="-lX11 -ldl" -DHTTP_SERVER_PORT=8080 ..;
+	cd euphonium/targets/cli/build; cmake ${CMAKE_BUILD_ARGS} ..;
 	@$(MAKE) -C euphonium/targets/cli/build
 
 flash-all: esp32
