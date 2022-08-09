@@ -49,6 +49,7 @@ class MA12070P : DACDriver
         # Set Amp to Left-justified format
         i2c.write(ADDR, 53, 8)
 
+
         ## Setting power profile 2 as active
 #        i2c.write(ADDR, 0x1D, 0x02)
 

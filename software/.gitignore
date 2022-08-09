@@ -1,1 +1,2 @@
-config/euphonium/scripts/configuration/wifi.config.json
+config/euphonium/scripts/configuration/*.json
+future-config
