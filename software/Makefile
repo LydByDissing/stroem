@@ -21,13 +21,8 @@ copy-config:
 	@echo "Copying local cofig"
 	cp ${COPY_FLAGS} config/* euphonium/
 
-ifeq ($(origin IDF_PATH),undefined)
-esp32: copy-config
-	bash -c "source ${IDF_HOME}/export.sh; cd euphonium/targets/esp32; sh generate_full_build.sh;"
-else
 esp32: copy-config
 	cd euphonium/targets/esp32; sh generate_full_build.sh;
-endif
 
 cli: copy-config
 	cd euphonium/targets/cli/build; cmake ${CMAKE_BUILD_ARGS} ..;
@@ -36,6 +31,10 @@ cli: copy-config
 flash-all: esp32
 	@echo "flashing using this port '${JTAG_PORT}'"
 	cd euphonium/targets/esp32; sh flash_all.sh ${JTAG_PORT};
+
+flash-spiffs: copy-config
+	@echo "flashing using this port '${JTAG_PORT}'"
+	cd euphonium/targets/esp32; sh reflash_spiffs.sh ${JTAG_PORT};
 
 clean: clean-cli clean-esp32
 
@@ -49,3 +48,4 @@ monitor:
 	cd euphonium/targets/esp32; sh monitor.sh ${JTAG_PORT};
 
 flash-and-monitor: flash-all monitor
+flash-spiffs-and-monitor: flash-spiffs monitor

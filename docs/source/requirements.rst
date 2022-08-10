@@ -47,7 +47,7 @@ Acoustics
 *********
 With this project it is not the goal to create another `boombox <https://en.wikipedia.org/wiki/Boombox>`_, with over attenuated lows (bass) and highs (treble) as this will quickly result in listening fatigue. This is also called a `smiley face curve <https://en.wikipedia.org/wiki/Smiley_face_curve>`_.
 
-However a slight bass boost at lower SPL levels to accommodate for the non-linear human hearing will make the speaker sound natural a lower sound pressure levels (SPL). This boost should be less pronounced at higher SPL levels; the dynamic part of this requirement can become hard to realize, but it will make for a much more appealing listening proposition.
+However a slight bass boost at lower SPL levels to accommodate for the non-linear human hearing will make the speaker sound natural at lower sound pressure levels (SPL). This boost should be less pronounced at higher SPL levels; the dynamic part of this requirement can become hard to realize, but it will make for a much more appealing listening proposition.
 A non exhaustive lists of further considerations:
 
 .. acoustic-requirements-start
@@ -81,13 +81,13 @@ We also want to add a few more limitations to this design goal. The maximum SPL 
 
 * and should avoid clipping
 
-We have settle on **100dB of maximum SPL** for this small speaker. This will be more than sufficient for must small and medium sized rooms.
-The implementation of this requirement will affect (limit) the frequency response of the speaker. Most drivers can play down to 20Hz, but maybe not a great volume. So by limitting the frequency band we can push the drivers to higher SPL levels.
+We have settle on **100dB of maximum SPL** for this small speaker. This will be more than sufficient for most small and medium sized rooms.
+The implementation of this requirement will affect (limit) the frequency response of the speaker. Most drivers can play down to 20Hz, but maybe not at great volume. So by limitting the frequency band we can push the drivers to higher SPL levels.
 
 Frequency response
 ------------------
 
-It should be pleasent to listen to this speaker and at the same time you should be able to get an "audio experience". So no smiley curve frequency response, nor overly exaggerated lows; i.e. this is not a boom box. We are looking to implement a hi-fi speaker with fairly linear frequency response.
+It should be pleasent to listen to this speaker and at the same time you should be able to get an "audio experience". So no smiley curve frequency response, nor overly exaggerated lows; i.e. this is not a boom box. We are looking to implement a "hi-fi" speaker with fairly linear frequency response.
 
 A requirement of a linearity within ±4dB isn't perfect, but it is a pretty decent middle ground.
 
