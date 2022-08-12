@@ -23,7 +23,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
-      - name: Build
+      - name: Build STROEM 1.0 image
         uses: docker/build-push-action@v2
         with:
           context: ./software
@@ -32,3 +32,12 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/stroem:latest
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/stroem:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/stroem:buildcache,mode=max
+      - name: Build web-ide image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./software/euphonium/web-ide
+          file: ./software/Dockerfile.web-ide
+          push: true
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/web-ide:latest
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/stroem:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/web-ide:buildcache,mode=max
