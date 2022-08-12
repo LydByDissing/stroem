@@ -19,7 +19,7 @@ jobs:
       - name: Build
         uses: docker/build-push-action@v2
         with:
-          context: software
+          context: ./software
           file: ./software/Dockerfile
           push: false
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/stroem:latest
