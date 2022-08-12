@@ -1,2 +1,5 @@
 config/euphonium/scripts/configuration/*.json
 future-config
+**/**/node_modules
+web-ide/stroem-web-ide/public/*
+**/**/wrangler.toml
