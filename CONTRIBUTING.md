@@ -1,42 +1,23 @@
-# Contributing to the STRØM project
-:blush: I am honored that you are considering to contribute to this project. Thank you! :blush:
+# Contributing to Stroem 🔊 (Open Source Speaker)
 
-The following guidelines are created to make it easier to start contributing to the project, but they are not rules, merely guidelines. Use common sense and please feel free to update this document with a pull request.
+We're glad you're considering contributing to Stroem! 🎉 Whether you're a first-time contributor or a seasoned open source veteran, we're here to help make your contribution experience as smooth and enjoyable as possible. 💻
 
-## I just have a question. What do I do?
-If you have a question or comment to an existing issue simply just ask it in a new comment on that specific issue.
+Please note that this is an open source speaker project, so some contributions may require specialized knowledge or equipment. 🔧 We appreciate any and all contributions, big or small, and are here to help you get started. 💡
 
-Otherwise feel free to create a new discussion topic on the [discussion section](https://github.com/LydByDissing/stroem/discussions).
+## Getting Started 🚀
 
-## In what way can I contribute?
-All and any contribution are welcome. A single comment on an existing issue can offer valuable insight into a specific topic, so don't hold back on comments on existing tasks and problems.
+1. Before you start, make sure you have a GitHub account. If you don't have one, sign up for free [here](https://github.com/join). 💻
+2. Take a look at the [existing issues](https://github.com/LydByDissing/stroem/issues) to see if there's anything you'd like to work on. If you have an idea for a new feature or improvement, feel free to open a new issue to start a discussion. 💡
+3. If you're ready to start coding or working on hardware, fork the repository and clone it to your local machine. 💾
+4. Make your changes and test them thoroughly. 🔧
+5. When you're ready to submit your changes, create a pull request. Make sure to include a clear and concise description of what you've done and why. 📝
 
-Other ways to contribute are, just to name a few, are:
-* write better/more documentation
-* improve the CAD design files for ease of production
-* extend the software platform
+## Code of Conduct 🤝
 
-There's many aspects of this project so chip in with your knowledge. That is the best contribution of all :muscle:
+At Stroem, we believe in creating a welcoming and inclusive environment for all contributors. 🙏 We follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct), which outlines our expectations for behavior and the consequences for unacceptable behavior.
 
-## Create a Pull Request (PR)
-All changes to the code base or the documentation are handled through pull requests. This means that any contribution that consists of a change to the code based must be submitted as a PR.
-Please also link your PR to an existing issue or create a new one if needed.
+## Help and Support 💬
 
-Each PR will be reviewed by the code owner before it can merged.
+If you need help or have any questions, feel free to reach out to us by opening an issue or joining our community chat. 💬 We're here to help and will do our best to support you in your contribution journey. 💪
 
-### Suggest a missing feature
-If you miss a specific feature or functionality, then create a new _feature request_ issue, where you described the requested feature in detail.
-
-### Something doesn't work
-If you have found a bug, then please create a detailed bug report by creating a new issue of type _bug_.
-
-### Change impact
-With any PR it is important to have in mind how this PR will affect the existing functionality and hardware in the wild. Therefore a few lables are made available to indicate the impact of each PR.
-The following lables are available:
-
-* patch
-* minor
-* major
-
-Add one of these lable to your PR to help in the review process.
-These lables are also used when calculating the next potential version tag when merging the PR.
+Thanks for considering contributing to Stroem! We can't wait to hear what you'll add to this amazing open source speaker project! 🔊
